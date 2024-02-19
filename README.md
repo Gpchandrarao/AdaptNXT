@@ -1,8 +1,30 @@
-# React + Vite
+### React + Vite AdaptNXT project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React Application showcases a platform for browsing and exploring different product order status.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+product with order details
+
+### Getting Started:
+
+Prerequisites: @ Node.js and npm installed
+
+### installation:
+
+Clone this repository: git clone
+Install dependencies: npm install
+Start the development sever: npm run dev
+Usage:
+@ Access the application in your browser at http://localhost:3000 @ Explore the products with categorys
+
+npm run build fails to minify
+@ use this commend  
+ npm run build
+npm run preview
+
+Deployment
+I am using netlify website for Deployment
+
+Demo
+@ Click this link for Demo [adaptnxt-gp.netlify.app](https://adaptnxt-gp.netlify.app/)
