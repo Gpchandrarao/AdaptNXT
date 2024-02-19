@@ -1,0 +1,266 @@
+.order-nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.order-heading-container {
+  background-color: #ffffffe6;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 10px;
+  width: 95px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-heading-container p {
+  color: rgb(13, 110, 253);
+  font-size: 15px;
+  font-weight: 600;
+}
+.drop-down-line {
+  width: 30px;
+  height: 30px;
+}
+
+.order-heading-container .close-icon {
+  width: 20px;
+  height: 20px;
+  color: silver;
+  cursor: pointer;
+}
+
+.setting {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.li-container {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0px 0 30px;
+}
+
+.li-container li {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.order-active {
+  border-bottom: 3px solid rgb(13, 110, 253);
+  color: rgb(13, 110, 253);
+  transition: all 0.2s;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #fff;
+  margin: 10px 0 0 10px;
+  padding: 20px 10px 10px 10px;
+}
+
+.order-info-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 50vh;
+}
+
+.import-orders-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.import-orders {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.import,
+.accept,
+.print,
+.refresh {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  gap: 10px;
+  background-color: rgb(232, 230, 230);
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(122, 120, 120);
+}
+
+/* .import {
+    background-color: aqua;
+} */
+
+.order-cat-activie {
+  background-color: #fff;
+  border: 1px solid silver;
+  color: #000;
+}
+
+.refresh {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  gap: 10px;
+  background-color: rgb(13, 110, 253);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.refresh:hover {
+  transform: scale(1.02);
+}
+
+.order-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 60px; */
+  background-color: rgb(232, 230, 230);
+  padding: 5px 30px 0 90px;
+  height: 60px;
+}
+
+.order-status input {
+  width: 20px;
+  height: 15px;
+}
+
+.channels-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.channel-arrow-container {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-head-container {
+  display: flex;
+  flex-direction: column;
+  height: 25px;
+}
+
+.order-no {
+  display: flex;
+  align-items: center;
+}
+
+.order-date {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custome-container {
+  display: flex;
+  align-items: center;
+}
+
+.order-valus-status {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.order-valus {
+  display: flex;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.but {
+  background-color: rgba(232, 230, 230, 0.3);
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.buts {
+  background-color: transparent;
+  color: blue;
+  border-radius: 5px;
+  border: 2px solid blue;
+  /* border: 0; */
+  outline: 0;
+  padding: 5px 10px;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.arrows-left {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: rgb(132, 128, 128);
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(232, 230, 230);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.pages:hover,
+.but:hover,
+.buts:hover {
+  transform: scale(1.08);
+}
+.showdarkCol {
+  background-color: #000;
+  color: blue;
+}

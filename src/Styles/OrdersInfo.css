@@ -1,0 +1,62 @@
+.orders-info-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-channel-order-no {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.shoppy-img {
+  width: 30px;
+}
+
+.order-date-city {
+  display: flex;
+  margin-left: 60px;
+  gap: 60px;
+}
+
+.custmor-name {
+  margin: 0px 65px;
+}
+
+.order-valu-status-action {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 30px; */
+}
+
+.pendding {
+  margin-left: 90px;
+  border-radius: 3px;
+  color: rgb(37, 114, 7);
+  background-color: rgba(174, 253, 164, 0.826);
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  /* width: 100px; */
+  border: 1px solid rgb(32, 114, 7);
+}
+
+.actions {
+  margin-left: 100px;
+  border: 1px solid silver;
+  text-align: center;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.orders--container hr {
+  margin-top: 15px;
+  color: rgb(232, 230, 230);
+}
+.showdarkCol {
+  background-color: #000;
+  color: blue;
+}
